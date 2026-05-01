@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Pair Code</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f2f5; }
+        .container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        input { padding: 10px; margin-bottom: 10px; width: 80%; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px 20px; background-color: #25d366; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Get Your Pair Code</h2>
+        <input type="text" id="number" placeholder="Enter number with country code (e.g. 947...)">
+        <br>
+        <button onclick="getPairCode()">Get Code</button>
+        <div id="code-display"></div>
+    </div>
+</body>
+</html>
